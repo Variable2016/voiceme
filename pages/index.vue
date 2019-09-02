@@ -296,6 +296,6 @@ export default {
 
 <style>
 .gradient {
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background: linear-gradient(90deg, #134abf 0%, #daae51 100%);
 }
 </style>
