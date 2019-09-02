@@ -49,14 +49,14 @@
           <button
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-          >Action</button>
+          >Login</button>
         </div>
       </div>
 
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
 
-    <div class="pt-24">
+    <div class="pt-10">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div
