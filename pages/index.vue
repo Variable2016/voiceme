@@ -67,7 +67,7 @@
 
           <button
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          >Sign Up for the pilot</button>
+          >Sign up for a free pilot!</button>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-4 text-center">
@@ -282,7 +282,7 @@ All the conversations among team members — either using walkie-talkies or our 
 
       <button
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-      >Signup for the pilot now!</button>
+      >Sign up for a free pilot!</button>
     </section>
   </div>
 </template>
@@ -296,6 +296,6 @@ export default {
 
 <style>
 .gradient {
-  background: linear-gradient(90deg, #134abf 0%, #daae51 100%);
+  background: linear-gradient(90deg, #134abf 0%, #cecece 100%);
 }
 </style>
