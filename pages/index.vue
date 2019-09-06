@@ -119,61 +119,61 @@
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
 
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-        				<div class="flex items-center justify-start">
-                  <img src="~/assets/number-one.png" alt="number-one" />
-        				</div>
+		<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+                  <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-one.png" alt="number-one"/>
+        				
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
 					<p class="text-gray-800 text-base px-6 mb-5">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+						Click here to become a pilot user and lock in early adopter pricing(for life).
 					</p>
 				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-start">
-					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-				</div>
 			</div>
 		</div>
 
 
 
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+		<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+     <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-two.png" alt="number-two"/>
+
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Connect a device</div>
 					<p class="text-gray-800 text-base px-6 mb-5">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+						Connect a single member of your team to VoiceMe.
 					</p>
 				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-				</div>
 			</div>
 		</div>
 
 
 
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+		<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+             <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-three.png" alt="number-three"/>
+
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Happier teams</div>
 					<p class="text-gray-800 text-base px-6 mb-5">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+						Eliminate miscommunication and improve team moral.
 					</p>
 				</a>
 			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-end">
-					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-				</div>
+		
+		</div>
+
+
+
+	<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+           <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-four.png" alt="number-three"/>
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Happier customers</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						Build trust and meaniful relationship with customers.
+					</p>
+				</a>
 			</div>
 		</div>
 
