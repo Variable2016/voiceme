@@ -111,7 +111,7 @@
 <!-----------------------How it works---------->
 <section class="bg-white border-b py-8">
 
-	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
+	<a class="container mx-auto flex flex-wrap pt-4 pb-12">
 
 		<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">How does VoiceMe help you</h1>
     <p class="w-full my-2 text-2xl font-bold text-center text-gray-800">Communicate better, work better, produce better</p>
@@ -165,8 +165,8 @@
 
 
 
-	<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+	<a class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+			<a class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
            <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-four.png" alt="number-three"/>
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
 					<div class="w-full font-bold text-xl text-gray-800 px-6">Happier customers</div>
@@ -174,11 +174,11 @@
 						Build trust and meaniful relationship with customers.
 					</p>
 				</a>
-			</div>
-		</div>
+			</a>
+		</a>
 
 
-	</div>
+	</a>
 
 </section>
 
