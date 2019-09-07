@@ -120,7 +120,7 @@
 		</div>
 
 		<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden  text-center">
                   <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-one.png" alt="number-one"/>
         				
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -135,7 +135,7 @@
 
 
 		<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden  text-center">
      <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-two.png" alt="number-two"/>
 
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -150,7 +150,7 @@
 
 
 		<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden  text-center">
              <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-three.png" alt="number-three"/>
 
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -166,7 +166,7 @@
 
 
 	<a class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-			<a class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+			<a class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
            <img class="w-1/6  md:w-1/5 mx-auto" src="~/assets/number-four.png" alt="number-three"/>
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
 					<div class="w-full font-bold text-xl text-gray-800 px-6">Happier customers</div>
