@@ -66,12 +66,11 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-4 text-center">
-          <iframe
-            class="max-w-md mx-auto pb-8 text-center"
+          <video
             src="https://www.youtube.com/embed/QCHReK--iNo"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></video>
         </div>
       </div>
     </div>
