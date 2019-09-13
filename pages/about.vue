@@ -73,17 +73,23 @@
         <section class="w-full">
           <div class="container mx-auto flex flex-row sm:items-center xl:pb-16 xl:px-0 px-4">
             <div class="w-1/2 text-white flex flex-col">
-              <h2
+              <h1
                 class="sm:text-5xl text-xl font-weight-bolder sm:mb-4"
-              >Connect a single device to voiceMe Dashboard and everyone in the team is now securely connected</h2>
+              >Best app landin page for Apps Downloads.</h1>
+              <h2 class="sm:text-2xl text-base mb-2">Tailwind landing app theme.</h2>
               <p
                 class="text-xs sm:text-base"
               >This is your text under h1 and h2. Write your main text promotional here.</p>
               <form class="xl:mt-4 mt-8 flex hidden xl:flex">
+                <input
+                  class="rounded-l-full p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+                  placeholder="your@mail.com"
+                />
                 <button
                   class="px-8 rounded-r-full bg-yellow-400 text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r"
-                >Sign up for a free pilot!</button>
+                >Subscribe</button>
               </form>
+              <p class="text-xs sm:block hidden">* Legal text</p>
             </div>
             <div class="w-1/2 xl:pt-8 xl:items-center flex justify-end">
               <img
@@ -97,6 +103,15 @@
       </div>
       <div class="bg-white pb-8 w-full pt-8">
         <div class="container mx-auto">
+          <form class="flex xl:hidden p-2 w-full justify-center pb-16">
+            <input
+              class="rounded-l-full p-2 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+              placeholder="your@mail.com"
+            />
+            <button
+              class="px-2 rounded-r-full bg-yellow-400 text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r"
+            >Subscribe</button>
+          </form>
           <div class="text-center w-full pb-16">
             <h3 class="uppercase text-gray-800">Why choose my app?</h3>
             <p

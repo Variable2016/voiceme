@@ -66,11 +66,7 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-4 text-center">
-          <video
-            src="https://www.youtube.com/embed/QCHReK--iNo"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></video>
+          <img class="w-full md:w-4/5 z-50" src="~/assets/connected1.png" />
         </div>
       </div>
     </div>
@@ -961,12 +957,16 @@
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
       >Sign up for a free pilot!</button>
     </section>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from "~/components/Footer.vue";
 export default {
-  components: {},
+  components: {
+    Footer
+  },
   mounted: function() {}
 };
 </script>

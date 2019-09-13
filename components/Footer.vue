@@ -4,9 +4,9 @@
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
-          <a
+          <nuxt-link
             class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            href="#"
+            to="#"
           >
             <svg
               class="h-6"
@@ -25,8 +25,8 @@
               />
               <circle cx="12" cy="8" r="7" class="circle" />
             </svg>
-            ThyFlow
-          </a>
+            VoiceMe
+          </nuxt-link>
         </div>
 
         <div class="flex-1">
