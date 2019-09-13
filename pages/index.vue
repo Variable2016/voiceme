@@ -66,7 +66,7 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-4 text-center">
-          <img class="w-full md:w-4/5 z-50" src="~/assets/connected1.png" />
+          <youtube class="w-full md:w-3/5 z-50 py-10 float-right" video-id="QCHReK--iNo"></youtube>
         </div>
       </div>
     </div>
@@ -102,14 +102,7 @@
       </svg>
     </div>
     <!-----------------------------------Video--------------->
-    <section class="bg-white border-b py-8">
-      <iframe
-        src="https://www.youtube.com/embed/QCHReK--iNo"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
+    <section class="md:items-center bg-white border-b py-8"></section>
     <!-----------------------How it works---------->
     <section class="bg-white border-b py-8">
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">

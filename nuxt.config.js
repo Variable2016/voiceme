@@ -18,8 +18,7 @@ module.exports = {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href:
-          'href="https://fonts.googleapis.com/css?family=Manjari&display=swap"'
+        href: "https://fonts.googleapis.com/css?family=Roboto"
       }
     ]
   },
@@ -34,7 +33,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ["~/plugins/vue-youtube"],
   /*
    ** Nuxt.js dev-modules
    */
