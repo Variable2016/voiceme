@@ -836,9 +836,7 @@
             <div class="align-middle">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Management Dashboard</h3>
               <p class="text-gray-600 mb-8">
-                The Management Dashboard allows managers to gain actionable insights into their mobile, deskless workforce. Finally being able to understand what is actually happening within their teams, the dashboard helps managers optimize resource allocation and resolve employee conflicts along with improving service recoveries, employee engagement, compliance, and liability protection.
-                All the conversations among team members — either using walkie-talkies or our mobile app — are conveniently captured in real time, offering unprecedented operational visibility into the workforce. Managers can also choose to receive instant notifications of certain events that need their immediate attention.
-                <br />
+                The Management Dashboard allows managers to gain actionable insights into their mobile, deskless workforce.
                 <br />
               </p>
             </div>
@@ -893,9 +891,9 @@
       </div>
 
       <p class="my-4 text-1xl leading-tight">
-        voice is currently accepting a limited number of companies to join their pilot group.
+        voiceMe.ai is currently accepting a limited number of companies to join their pilot group.
         This is your opportunity to helps tailor the platform to your company's need.
-        Lock in early adapter pricing as an added benefit. There are only four accounts left!
+        Lock in early adopter pricing as an added benefit. There are only four accounts left!
       </p>
 
       <button
@@ -921,5 +919,6 @@ export default {
 <style>
 .gradient {
   background: linear-gradient(90deg, #134abf 0%, #cecece 100%);
+  font-family: "Manjari", sans-serif;
 }
 </style>
