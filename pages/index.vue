@@ -76,7 +76,7 @@
               <div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
               <p
                 class="text-gray-800 text-base px-6 mb-5"
-              >Click here to become a pilot user and lock in early adopter pricing(for life).</p>
+              >Click here to become a pilot user and lock in early adopter pricing (for life).</p>
             </a>
           </div>
         </div>
@@ -101,7 +101,7 @@
               <div class="w-full font-bold text-xl text-gray-800 px-6">Happier teams</div>
               <p
                 class="text-gray-800 text-base px-6 mb-5"
-              >Eliminate miscommunication and improve team moral.</p>
+              >Eliminate miscommunication and improve team morale.</p>
             </a>
           </div>
         </div>
@@ -113,7 +113,7 @@
               <div class="w-full font-bold text-xl text-gray-800 px-6">Happier customers</div>
               <p
                 class="text-gray-800 text-base px-6 mb-5"
-              >Build trust and meaniful relationship with customers.</p>
+              >Build trust and meaningful relationships with customers.</p>
             </a>
           </a>
         </a>
@@ -893,9 +893,9 @@
       </div>
 
       <p class="my-4 text-1xl leading-tight">
-        VoiceMe is currently accepting a limited number of companies to join their pilot group.
-        This is you oppurtunity to helps tailor the platform to your compant's need.
-        Lock in earlier adapter pricing as added benefit. There are only four accounts left
+        voice is currently accepting a limited number of companies to join their pilot group.
+        This is your opportunity to helps tailor the platform to your company's need.
+        Lock in early adapter pricing as an added benefit. There are only four accounts left!
       </p>
 
       <button

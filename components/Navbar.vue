@@ -2,10 +2,10 @@
   <nav id="header" class="w-full z-30 text-white">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex items-center">
-        <a
+        <nuxt-link
           class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-          href="#"
-        >VoiceMe</a>
+          to="/"
+        >VoiceMe.ai</nuxt-link>
       </div>
 
       <div
@@ -22,7 +22,7 @@
           <li class="mr-3">
             <nuxt-link
               class="inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
-              to="about-us"
+              to="about"
             >About Us</nuxt-link>
           </li>
         </ul>

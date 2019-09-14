@@ -5,28 +5,9 @@
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
           <nuxt-link
-            class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+            class="text-blue-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
             to="#"
-          >
-            <svg
-              class="h-6"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#2a2a31"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <polyline
-                points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
-                stroke="#ea3970"
-                class="check"
-              />
-              <circle cx="12" cy="8" r="7" class="circle" />
-            </svg>
-            VoiceMe
-          </nuxt-link>
+          >VoiceMe.ai</nuxt-link>
         </div>
 
         <div class="flex-1">
