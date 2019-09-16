@@ -1,7 +1,7 @@
 <template>
   <div class="leading-normal tracking-normal text-white gradient font-body">
     <Navbar />
-    <div class="pt-10">
+    <div class="pt-9">
       <div class="container px-1 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div
@@ -17,8 +17,11 @@
           >Sign up for a free pilot!</button>
         </div>
         <!--Right Col-->
-        <div class="w-full md:w-3/5 py-4 text-center">
-          <youtube class="w-full md:w-3/5 z-50 py-10 float-right" video-id="QCHReK--iNo"></youtube>
+        <div class="video-house w-full md:w-3/5 py-4 text-center">
+          <youtube
+            class="video-section w-full md:w-3/5 z-50 py-10 float-right"
+            video-id="QCHReK--iNo"
+          ></youtube>
         </div>
       </div>
     </div>
@@ -920,5 +923,14 @@ export default {
 .gradient {
   background: linear-gradient(90deg, #134abf 0%, #cecece 100%);
   font-family: "Manjari", sans-serif;
+}
+.video-house {
+  position: relative;
+}
+.video-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
