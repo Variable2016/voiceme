@@ -2,6 +2,8 @@
   <nav id="header" class="w-full z-30 text-white">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex items-center">
+        <img class="h-8 fill-current inline" src="~/assets/number-one.png" alt="number-one" />
+
         <nuxt-link
           class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           to="/"

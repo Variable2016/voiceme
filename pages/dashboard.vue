@@ -48,6 +48,23 @@
       </svg>
     </div>
     <!------------------------------Header Ends----------------->
+
+    <section class="bg-white border-b py-8">
+      <a class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h1
+          class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
+        >How does VoiceMe help you</h1>
+        <p
+          class="w-full my-2 text-2xl font-bold text-center text-gray-800"
+        >Communicate better, work better, produce better</p>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          <p
+            class="w-full my-2 text-1xl text-center text-gray-800 shadow"
+          >Communicate better, work better, produce better</p>
+        </div>
+      </a>
+    </section>
   </div>
 </template>
 

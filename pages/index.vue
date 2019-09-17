@@ -57,7 +57,6 @@
       </svg>
     </div>
     <!-----------------------------------Video--------------->
-    <section class="md:items-center bg-white border-b py-8"></section>
     <!-----------------------How it works---------->
     <section class="bg-white border-b py-8">
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
