@@ -33,7 +33,10 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ["~/plugins/vue-youtube"],
+  plugins: [
+    { src: "~/plugins/vue-youtube" },
+    { src: "~/plugins/vue-recaptcha", mode: "client" }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
