@@ -7,8 +7,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ["Manjari", "sans-serif"],
-      body: ["Manjari", "sans-serif"]
+      display: ["Roboto", "sans-serif"],
+      body: ["Roboto", "sans-serif"]
     }
   },
   variants: {},
