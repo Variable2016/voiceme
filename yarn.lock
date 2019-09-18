@@ -952,6 +952,11 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^4.0.0"
 
+"@nuxtjs/recaptcha@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/recaptcha/-/recaptcha-0.5.3.tgz#cc5b8d4603b216edc9c4af573a9d9bd88bed025a"
+  integrity sha512-gn0TQESCT0QzqP/8SUWMODjhatUS9ZwRGz9v3sfTcJONtYhMSOCcKAfd0aOIlpa4fkMLpy0K1Idpbw/mcluhkA==
+
 "@nuxtjs/tailwindcss@^1.0.0":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-1.1.2.tgz#fb1c687c4f72797388f8c6a49a6e376f634ac7ff"
@@ -7352,11 +7357,6 @@ vue-no-ssr@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
-
-vue-recaptcha@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/vue-recaptcha/-/vue-recaptcha-1.2.0.tgz#a30ab08b4c79326d2e3ab1c1e76c367e02e6eb35"
-  integrity sha512-zgt8bAmlHbLT2XY0diwA/UgGcbp1cOYXJ8za17WM1zlOC8EiO0mpGvYzXaR1aeU0gaiv1qLO6GOUwQVVAjgwMw==
 
 vue-router@~3.0.7:
   version "3.0.7"

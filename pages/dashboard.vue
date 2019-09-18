@@ -1,7 +1,6 @@
 <template>
   <div class="gradient">
     <Navbar />
-    <recapcha />
     <header class="pt-9">
       <div class="container px-1 py-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div
@@ -51,17 +50,19 @@
 
     <section class="bg-white border-b py-8">
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h1
-          class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
-        >How does VoiceMe help you</h1>
+        <h3
+          class="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800"
+        >Connect a single device to voiceMe.ai Dashboard and everyone in the team is now securely connected</h3>
         <p
           class="w-full my-2 text-2xl font-bold text-center text-gray-800"
-        >Communicate better, work better, produce better</p>
+        >Clear communication. Stronger teams. Better customer scervice</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-          <p
-            class="w-full my-2 text-1xl text-center text-gray-800 shadow"
-          >Communicate better, work better, produce better</p>
+          <p class="w-full my-2 text-1xl text-center text-gray-800 shadow">
+            The VoiceMe.ai Management dashboard visually display how team communicate. No more playing catch-up,
+            No more information black holes. Voiceme.ai can shine a light on communication breakdowns, trouble spots and accountability
+            enable you to easily resolve conflicts and restore confidence in your team
+          </p>
         </div>
       </a>
     </section>
@@ -69,20 +70,15 @@
 </template>
 
 <script>
-import recapcha from "~/components/recapcha.vue";
 import Navbar from "~/components/Navbar.vue";
 export default {
   components: {
-    Navbar,
-    recapcha
+    Navbar
   }
 };
 </script>
 
 <style lang="css" scoped>
-#menu-toggle:checked + #menu {
-  display: block;
-}
 .gradient {
   background: linear-gradient(90deg, #134abf 0%, #cecece 100%);
 }

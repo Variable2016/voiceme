@@ -90,7 +90,7 @@
               <div class="w-full font-bold text-xl text-gray-800 px-6">Connect a device</div>
               <p
                 class="text-gray-800 text-base px-6 mb-5"
-              >Connect a single member of your team to VoiceMe.</p>
+              >Connect a single member of your team to VoiceMe.AI.</p>
             </a>
           </div>
         </div>
@@ -840,7 +840,7 @@
               <p class="text-gray-600 mb-8">
                 The Management Dashboard allows managers to gain actionable insights into their mobile, deskless workforce.
                 <a>
-                  <nuxt-link to="/dashboard">read more</nuxt-link>
+                  <nuxt-link to="/dashboard" class="underline">Learn more</nuxt-link>
                 </a>
                 <br />
               </p>
@@ -889,15 +889,15 @@
     </svg>
     <section class="container mx-auto text-center py-6 mb-12">
       <h1
-        class="w-full my-2 text-4xl font-bold leading-tight text-center text-white"
-      >Become a Pilot User now</h1>
+        class="w-full my-2 text-4xl font-bold leading-tight text-center text-white px-7"
+      >Become a Pilot User Now!</h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
 
-      <p class="my-4 text-1xl leading-tight">
-        voiceMe.ai is currently accepting a limited number of companies to join their pilot group.
-        This is your opportunity to helps tailor the platform to your company's need.
+      <p class="my-4 text-1xl leading-tight px-10">
+        VoiceMe.AI is currently accepting a limited number of companies to join their pilot group.
+        This is your opportunity to help tailor the platform to your companies needs.
         Lock in early adopter pricing as an added benefit. There are only four accounts left!
       </p>
 

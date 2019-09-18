@@ -7,7 +7,7 @@
         <nuxt-link
           class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           to="/"
-        >VoiceMe.ai</nuxt-link>
+        >VoiceMe.AI</nuxt-link>
       </div>
 
       <div

@@ -33,10 +33,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    { src: "~/plugins/vue-youtube" },
-    { src: "~/plugins/vue-recaptcha", mode: "client" }
-  ],
+  plugins: [{ src: "~/plugins/vue-youtube" }],
   /*
    ** Nuxt.js dev-modules
    */
@@ -47,7 +44,12 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ["@nuxtjs/recaptcha"],
+  recaptcha: {
+    hideBadge: false,
+    siteKey: "6LeE3ZAUAAAAANVaDO60w4ZBK44khqO7OpsitZNY",
+    version: 3 // Version
+  },
   /*
    ** Build configuration
    */
