@@ -73,6 +73,7 @@
         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
             <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-one.png" alt="number-one" />
+            <img class="h-10 float-right" src="~/assets/right.svg" alt="number-one" />
 
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
@@ -86,6 +87,8 @@
         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
             <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-two.png" alt="number-two" />
+            <img class="h-10 float-right" src="~/assets/right.svg" alt="number-one" />
+
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6">Connect a device</div>
               <p
@@ -98,6 +101,7 @@
         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
             <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-three.png" alt="number-three" />
+            <img class="h-10 float-right" src="~/assets/right.svg" alt="number-one" />
 
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6">Happier teams</div>
@@ -111,6 +115,7 @@
         <a class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
           <a class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
             <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-four.png" alt="number-three" />
+
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6">Happier customers</div>
               <p
