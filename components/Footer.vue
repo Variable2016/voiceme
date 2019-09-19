@@ -4,9 +4,9 @@
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
-          <img class="w-8 fill-current inline" src="~/assets/icon.png" alt="number-one" />
+          <img class="w-10 fill-current inline" src="~/assets/icon.png" alt="number-one" />
           <nuxt-link
-            class="text-blue-600 no-underline hover:no-underline font-bold text-1xl lg:text-4xl"
+            class="text-blue-600 no-underline hover:no-underline font-extrabold text-3xl lg:text-3xl"
             to="#"
           >VoiceMe.AI</nuxt-link>
         </div>
