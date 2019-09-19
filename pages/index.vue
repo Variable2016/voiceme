@@ -62,7 +62,7 @@
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h1
           class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
-        >How does VoiceMe help you</h1>
+        >How does VoiceMe.AI help you</h1>
         <p
           class="w-full my-2 text-2xl font-bold text-center text-gray-800"
         >Communicate better, work better, produce better</p>
