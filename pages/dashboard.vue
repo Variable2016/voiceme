@@ -50,21 +50,65 @@
 
     <section class="bg-white border-b py-8">
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h3
-          class="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800"
-        >Connect a single device to voiceMe.ai Dashboard and everyone in the team is now securely connected</h3>
         <p
           class="w-full my-2 text-2xl font-bold text-center text-gray-800"
         >Clear communication. Stronger teams. Better customer scervice</p>
         <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-          <p class="w-full my-2 text-1xl text-center text-gray-800 shadow">
+          <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
+          <p class="w-full my-2 text-2xl text-center text-gray-800 shadow px-8">
             The VoiceMe.ai Management dashboard visually display how team communicate. No more playing catch-up,
             No more information black holes. Voiceme.ai can shine a light on communication breakdowns, trouble spots and accountability
             enable you to easily resolve conflicts and restore confidence in your team
           </p>
         </div>
       </a>
+    </section>
+
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h1
+          class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
+        >Advantages of VoiceMe.AI</h1>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+
+        <div class="w-full md:w-1/5 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+              <p
+                class="text-gray-800 text-base px-6 mb-5"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+            </a>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6"></div>
+        </div>
+
+        <div class="w-full md:w-3/5 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+              <p
+                class="text-gray-800 text-base px-6 mb-5"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+            </a>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6"></div>
+        </div>
+
+        <div class="w-full md:w-1/5 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+              <p
+                class="text-gray-800 text-base px-6 mb-5"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+            </a>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6"></div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

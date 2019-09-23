@@ -7,7 +7,7 @@
           <img class="h-10 fill-current inline px-2" src="~/assets/icon.png" alt="number-one" />
           <nuxt-link
             class="text-blue-600 no-underline hover:no-underline font-extrabold text-3xl lg:text-3xl"
-            to="#"
+            to="/"
           >VoiceMe.AI</nuxt-link>
         </div>
 
