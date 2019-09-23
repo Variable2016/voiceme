@@ -3,8 +3,8 @@
   <footer class="bg-white">
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
-        <div class="flex-1 mb-6">
-          <img class="w-10 fill-current inline" src="~/assets/icon.png" alt="number-one" />
+        <div class="mb-6 flex mr-4">
+          <img class="h-10 fill-current inline px-2" src="~/assets/icon.png" alt="number-one" />
           <nuxt-link
             class="text-blue-600 no-underline hover:no-underline font-extrabold text-3xl lg:text-3xl"
             to="#"
