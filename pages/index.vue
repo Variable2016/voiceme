@@ -56,7 +56,6 @@
         </g>
       </svg>
     </div>
-    <!-----------------------------------Video--------------->
     <!-----------------------How it works---------->
     <section class="bg-white border-b py-8">
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
@@ -69,7 +68,6 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-
         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden text-center">
             <img class="w-1/6 md:w-1/5 mx-auto" src="~/assets/number-one.png" alt="number-one" />
