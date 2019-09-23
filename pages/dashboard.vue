@@ -6,12 +6,14 @@
         <div
           class="flex flex-col w-full md:w-5/5 justify-center items-center content-center md:text-center"
         >
-          <h1 class="my-4 text-5xl font-bold leading-tight text-center">VoiceMe.ai</h1>
+          <h1 class="my-4 text-5xl font-bold leading-tight text-center">VoiceMe.AI</h1>
           <h3 class="my-4 text-4xl font-bold leading-tight text-center">Dashboard</h3>
 
           <button
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          >Sign up for a free pilot!</button>
+          >
+            <nuxt-link to="#">Signup for a free pilot!</nuxt-link>
+          </button>
         </div>
       </div>
     </header>
@@ -56,57 +58,111 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p class="w-full my-2 text-2xl text-center text-gray-800 shadow px-8">
-            The VoiceMe.ai Management dashboard visually display how team communicate. No more playing catch-up,
+            The VoiceMe.AI Management dashboard visually display how team communicate. No more playing catch-up,
             No more information black holes. Voiceme.ai can shine a light on communication breakdowns, trouble spots and accountability
             enable you to easily resolve conflicts and restore confidence in your team
           </p>
         </div>
       </a>
     </section>
-
-    <section class="bg-white border-b py-8">
+    <!---------------------------------------Advantages-------------->
+    <section class="bg-white border-b py-4">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h1
           class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
         >Advantages of VoiceMe.AI</h1>
+        <h3
+          class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
+        >Visualize team activity</h3>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink justify-center">
+          <div class="flex justify-center bg-white rounded-t rounded-b-none overflow-hidden">
+            <img class="h-20 fill-current px-2" src="~/assets/select.svg" alt="select" />
+          </div>
+        </div>
+
+        <div class="w-full md:w-3/5 p-4 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <div class="w-full font-bold text-xl text-gray-800 px-6 border">
+                Maintain consistent record of all communication between teams and individuals.
+                Finally shine a light on informational blind spots
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <img class="h-20 fill-current px-2" src="~/assets/visualize.svg" alt="select" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white border-b py-4">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h3
+          class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
+        >Realtime communication archive</h3>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
 
-        <div class="w-full md:w-1/5 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
-              <p
-                class="text-gray-800 text-base px-6 mb-5"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-            </a>
+        <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink justify-center">
+          <div class="flex justify-center bg-white rounded-t rounded-b-none overflow-hidden">
+            <img class="h-20 fill-current px-2" src="~/assets/select.svg" alt="select" />
           </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6"></div>
         </div>
 
-        <div class="w-full md:w-3/5 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="w-full md:w-3/5 p-4 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
-              <p
-                class="text-gray-800 text-base px-6 mb-5"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+              <div
+                class="w-full font-bold text-xl text-gray-800 px-6 border"
+              >Immediate access to all voice recording, messages and data. Pinpoint desired information effortlessly.</div>
             </a>
           </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6"></div>
         </div>
 
-        <div class="w-full md:w-1/5 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <img class="h-20 fill-current px-2" src="~/assets/recording.svg" alt="select" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white border-b py-4">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h3
+          class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
+        >Proactive notifications</h3>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+
+        <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink justify-center">
+          <div class="flex justify-center bg-white rounded-t rounded-b-none overflow-hidden">
+            <img class="h-20 fill-current px-2" src="~/assets/select.svg" alt="select" />
+          </div>
+        </div>
+
+        <div class="w-full md:w-3/5 p-4 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
-              <p
-                class="text-gray-800 text-base px-6 mb-5"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+              <div class="w-full font-bold text-xl text-gray-800 px-6 border">
+                Received notifications of communucation breakdowns.
+                Get ahead the issue before they become bigger problems
+              </div>
             </a>
           </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden p-6"></div>
+        </div>
+
+        <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+            <img class="h-20 fill-current px-2" src="~/assets/notification.svg" alt="select" />
+          </div>
         </div>
       </div>
     </section>
