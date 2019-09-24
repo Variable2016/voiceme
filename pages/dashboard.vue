@@ -8,8 +8,8 @@
       >
         <h1 class="my-4 text-4xl font-bold leading-tight text-white">Dashboard</h1>
         <p
-          class="leading-normal text-2xl mb-8"
-        >Sub-hero message, not too long and not too short. Make it just right!</p>
+          class="leading-normal text-2xl mb-8 text-white"
+        >Strengthen team by improving communication</p>
 
         <button
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
@@ -60,7 +60,7 @@
         >Clear Communication. Stronger Teams. Better Customer Service</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
-          <p class="w-full my-2 text-2xl text-center text-gray-800 shadow px-8">
+          <p class="w-full my-2 text-1xl text-center text-gray-800 border px-8">
             The VoiceMe.AI Management dashboard visually display how team communicate. No more playing catch-up,
             No more information black holes. Voiceme.ai can shine a light on communication breakdowns, trouble spots and accountability
             enable you to easily resolve conflicts and restore confidence in your team
