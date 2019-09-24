@@ -1,22 +1,25 @@
 <template>
   <div class="gradient">
     <Navbar />
-    <header class="pt-9">
-      <div class="container px-1 py-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div
-          class="flex flex-col w-full md:w-5/5 justify-center items-center content-center md:text-center"
-        >
-          <h1 class="my-4 text-5xl font-bold leading-tight text-center">VoiceMe.AI</h1>
-          <h3 class="my-4 text-4xl font-bold leading-tight text-center">Dashboard</h3>
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <!--Left Col-->
+      <div
+        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+      >
+        <h1 class="my-4 text-4xl font-bold leading-tight text-white">Dashboard</h1>
+        <p
+          class="leading-normal text-2xl mb-8"
+        >Sub-hero message, not too long and not too short. Make it just right!</p>
 
-          <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          >
-            <nuxt-link to="#">Signup for a free pilot!</nuxt-link>
-          </button>
-        </div>
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        >Sign up for a free pilot!</button>
       </div>
-    </header>
+      <!--Right Col-->
+      <div class="w-full md:w-3/5 py-6 text-center">
+        <img class="w-full md:w-4/5 z-50" src="~/assets/dashboard.png" />
+      </div>
+    </div>
     <div class="relative -mt-12 lg:-mt-24">
       <svg
         viewBox="0 0 1428 174"
@@ -54,7 +57,7 @@
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
         <p
           class="w-full my-2 text-2xl font-bold text-center text-gray-800"
-        >Clear communication. Stronger teams. Better customer scervice</p>
+        >Clear Communication. Stronger Teams. Better Customer Service</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p class="w-full my-2 text-2xl text-center text-gray-800 shadow px-8">
@@ -88,7 +91,7 @@
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl text-gray-800 px-6 border">
                 Maintain consistent record of all communication between teams and individuals.
-                Finally shine a light on informational blind spots
+                Finally shine a light on informational blind spots.
               </div>
             </a>
           </div>
@@ -105,7 +108,7 @@
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h3
           class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
-        >Realtime communication archive</h3>
+        >Realtime Communication Archive</h3>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
@@ -121,7 +124,7 @@
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div
                 class="w-full font-bold text-xl text-gray-800 px-6 border"
-              >Immediate access to all voice recording, messages and data. Pinpoint desired information effortlessly.</div>
+              >Immediate access to all voice recordings, messages, and data. Pinpoint desired information effortlessly.</div>
             </a>
           </div>
         </div>
@@ -137,7 +140,7 @@
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h3
           class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
-        >Proactive notifications</h3>
+        >Proactive Notifications</h3>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
@@ -151,10 +154,9 @@
         <div class="w-full md:w-3/5 p-4 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <div class="w-full font-bold text-xl text-gray-800 px-6 border">
-                Received notifications of communucation breakdowns.
-                Get ahead the issue before they become bigger problems
-              </div>
+              <div
+                class="w-full font-bold text-xl text-gray-800 px-6 border"
+              >Receive communication breakdowns. Get ahead of the issues before they become bigger problems.</div>
             </a>
           </div>
         </div>
@@ -210,7 +212,7 @@
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
 
-      <p class="my-4 text-1xl leading-tight px-10">
+      <p class="my-4 text-1xl leading-tight px-10 text-white">
         VoiceMe.AI is currently accepting a limited number of companies to join their pilot group.
         This is your opportunity to help tailor the platform to your companies needs.
         Lock in early adopter pricing as an added benefit. There are only four accounts left!

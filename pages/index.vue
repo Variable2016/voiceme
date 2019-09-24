@@ -7,7 +7,7 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
         >
-          <h1 class="my-4 text-5xl font-bold leading-tight">Smooth Communication for your team</h1>
+          <h1 class="my-4 text-5xl font-bold leading-tight">Smooth Communication for Your Team</h1>
           <p
             class="leading-normal text-2xl mb-8 text-center md:text-center"
           >Better Communication, Better Service</p>
@@ -61,7 +61,7 @@
       <a class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h1
           class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"
-        >How does VoiceMe.AI help you</h1>
+        >How does VoiceMe.AI help you?</h1>
         <p
           class="w-full my-2 text-2xl font-bold text-center text-gray-800"
         >Communicate better, work better, produce better</p>
@@ -910,6 +910,7 @@
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
       >Sign up for a free pilot!</button>
     </section>
+    <requesttrial />
     <Footer />
   </div>
 </template>
@@ -917,10 +918,12 @@
 <script>
 import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
+import requesttrial from "~/components/requesttrial.vue";
 export default {
   components: {
     Navbar,
-    Footer
+    Footer,
+    requesttrial
   },
   mounted: function() {}
 };
