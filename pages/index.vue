@@ -929,7 +929,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="css" scoped>
 .gradient {
   background: linear-gradient(90deg, #134abf 0%, #cecece 100%);
   font-family: "Manjari", sans-serif;
