@@ -45,7 +45,9 @@
       <div
         class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
-        <h1 class="my-4 text-4xl font-bold leading-tight text-white">Dashboard</h1>
+        <h1
+          class="my-4 text-4xl font-bold text-white sm:text-center md:text-right lg:text-justify xl:text-center"
+        >Dashboard</h1>
         <p
           class="leading-normal text-2xl mb-8 text-white"
         >Strengthen team by improving communication</p>
@@ -137,7 +139,7 @@
         </div>
 
         <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+          <div class="flex justify-center bg-white rounded-t rounded-b-none overflow-hidden">
             <img class="h-20 fill-current px-2" src="~/assets/visualize.svg" alt="select" />
           </div>
         </div>
@@ -169,7 +171,7 @@
         </div>
 
         <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+          <div class="flex justify-center bg-white rounded-t rounded-b-none overflow-hidden">
             <img class="h-20 fill-current px-2" src="~/assets/recording.svg" alt="select" />
           </div>
         </div>
@@ -201,7 +203,7 @@
         </div>
 
         <div class="w-full md:w-1/5 p-4 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
+          <div class="flex justify-center bg-white rounded-t rounded-b-none overflow-hidden">
             <img class="h-20 fill-current px-2" src="~/assets/notification.svg" alt="select" />
           </div>
         </div>
