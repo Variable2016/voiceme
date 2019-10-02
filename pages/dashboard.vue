@@ -307,6 +307,16 @@ import Navbar from "~/components/Navbar.vue";
 export default {
   components: {
     Navbar
+  },
+  data() {
+    return {
+      open: false
+    };
+  },
+  methods: {
+    toggle() {
+      this.open = !this.open;
+    }
   }
 };
 </script>
