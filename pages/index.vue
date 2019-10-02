@@ -17,11 +17,8 @@
           >Sign up for a free pilot!</button>
         </div>
         <!--Right Col-->
-        <div class="video-house w-full md:w-3/5 py-4 text-center">
-          <youtube
-            class="video-section w-full md:w-3/5 z-50 py-10 float-right"
-            video-id="QCHReK--iNo"
-          ></youtube>
+        <div class="w-full md:w-3/5 py-6 text-center">
+          <youtube class="w-full md:w-4/5 z-50" video-id="QCHReK--iNo"></youtube>
         </div>
       </div>
     </div>
