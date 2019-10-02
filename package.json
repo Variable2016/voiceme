@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.6.0",
     "@nuxtjs/recaptcha": "^0.5.3",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
