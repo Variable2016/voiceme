@@ -1,5 +1,5 @@
 <template>
-  <div class="gradient">
+  <div class="gradient font-body">
     <nav id="header" class="w-full z-30 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
@@ -130,7 +130,7 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p class="w-full my-2 text-1xl text-center text-gray-800 border px-8">
-            We started Voiceme.AI to help those people who are techno-phobic make the leap into a digital world.align-bottom.
+            We started Voiceme.AI to help those people who are techno-phobic make the leap into a digital world.
             Most things in life boils down to communication. Almost communication today is digital, and for millions of workers across the country this is real concern.
             Our solution is a simple way to connect analogue tech to digital dashboard. People are familiar with Walkie-talkie and CB radio don't have to change what they do
             and managers get benefit of a visual dashboard that helps them run their team.
