@@ -43,10 +43,10 @@
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-center sm:text-center"
       >
         <h1
-          class="my-4 text-4xl font-bold text-white sm:text-center md:text-right lg:text-justify xl:text-center"
+          class="my-4 text-4xl font-bold text-white sm:text-center md:text-center lg:text-justify xl:text-center"
         >Dashboard</h1>
         <p
           class="leading-normal text-2xl mb-8 text-white"
