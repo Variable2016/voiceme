@@ -131,7 +131,7 @@
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p class="w-full my-2 text-1xl text-center text-gray-800 border px-8">
             We started Voiceme.AI to help those people who are techno-phobic make the leap into a digital world.
-            Most things in life boils down to communication. Almost communication today is digital, and for millions of workers across the country this is real concern.
+            Most things in life boils down to communication. Almost all communication today is digital, and for millions of workers across the country this is real concern.
             Our solution is a simple way to connect analogue tech to digital dashboard. People are familiar with Walkie-talkie and CB radio don't have to change what they do
             and managers get benefit of a visual dashboard that helps them run their team.
           </p>
@@ -146,9 +146,9 @@
         </div>
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Our Mission</h3>
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">We Believe</h3>
             <p class="text-gray-600 mb-8">
-              When team communicate well, they work efficiently because they are better imformed and more confident in their actions.
+              When teams communicate well, they work efficiently because they are better imformed and more confident in their actions.
               This not only improve customer service, it improves their working conditions and potentially their lives.
               <br />
             </p>
