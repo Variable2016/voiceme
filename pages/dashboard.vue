@@ -131,7 +131,7 @@
     <!------------------------------Header Ends----------------->
 
     <section class="bg-white border-b py-8">
-      <a class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <a class="container mx-auto flex flex-wrap px-6">
         <p
           class="w-full my-2 text-2xl font-bold text-center text-gray-800"
         >Clear Communication. Stronger Teams. Better Customer Service</p>
@@ -184,7 +184,7 @@
     <section class="bg-white border-b py-4">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h3
-          class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
+          class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800 px-4"
         >Realtime Communication Archive</h3>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
