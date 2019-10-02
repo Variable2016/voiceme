@@ -18,6 +18,7 @@
             id="inline-full-name"
             type="text"
             placeholder="John Smith"
+            v-model="fullname"
           />
         </div>
       </div>
@@ -34,6 +35,7 @@
             id="inline-username"
             type="email"
             placeholder="name@example.com"
+            v-model="email"
           />
         </div>
       </div>
@@ -51,6 +53,7 @@
             id="inline-username"
             type="text"
             placeholder="Company name"
+            v-model="company"
           />
         </div>
       </div>
@@ -68,6 +71,7 @@
             id="inline-username"
             type="text"
             placeholder="What's your role in your company?"
+            v-model="role"
           />
         </div>
       </div>
@@ -81,7 +85,8 @@
         </div>
         <div class="md:w-2/3">
           <select
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+            v-model="selected"
           >
             <option value="Walkie Talkie">Walkie-Takie</option>
             <option value="Smartphones">Smartphones</option>
@@ -103,6 +108,7 @@
             id="inline-username"
             type="text"
             placeholder="How can voiceme.AI help you?"
+            v-model="help"
           />
         </div>
       </div>
@@ -113,6 +119,7 @@
           <button
             class="shadow bg-blue-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
             type="button"
+            @click="requesttrial"
           >Request Free Trial</button>
         </div>
       </div>
@@ -121,7 +128,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      fullname: "",
+      email: "",
+      company: "",
+      role: "",
+      selected: "",
+      help: ""
+    };
+  },
+  methods: {}
+};
 </script>
 
 <style lang="scss" scoped>
