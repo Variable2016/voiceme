@@ -28,11 +28,11 @@
       >
         <div class="text-sm sm:flex-grow">
           <nuxt-link
-            class="block py-2 px-4 text-white sm:inline-block font-bolder text-lg no-underline mt-4"
+            class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/dashboard"
           >Dashboard</nuxt-link>
           <nuxt-link
-            class="block py-2 px-4 text-white sm:inline-block font-bolder text-lg no-underline mt-4"
+            class="block py-2 px-4 lg:invisible text-white sm:inline-block font-bolder text-lg no-underline mt-4"
             to="/about"
           >About us</nuxt-link>
         </div>
