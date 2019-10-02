@@ -1,5 +1,5 @@
 <template>
-  <div class="gradient">
+  <div class="gradient font-body">
     <nav id="header" class="w-full z-30 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
@@ -153,7 +153,7 @@
         >Advantages of VoiceMe.AI</h1>
         <h3
           class="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800"
-        >Visualize team activity</h3>
+        >Visualize Team Activity</h3>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
