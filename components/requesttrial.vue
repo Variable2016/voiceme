@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-8 lg:px-48 bg-white py-8" id="requesttrial">
+  <div class="mx-auto px-8 lg:px-48 bg-white py-8" id="requestrial">
     <h1
       class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 my-10"
     >Request Free Trial</h1>

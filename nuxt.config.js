@@ -43,10 +43,12 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [{
-      src: "~/plugins/vue-youtube"
+      src: "~/plugins/vue-youtube",
+      ssr: false
     },
     {
-      src: "~plugins/vue-scrollto.js"
+      src: "~plugins/vue-scrollto.js",
+      ssr: false
     }
   ],
   /*
