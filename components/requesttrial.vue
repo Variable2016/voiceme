@@ -112,7 +112,7 @@
           />
         </div>
       </div>
-
+      <recaptcha @error="onError" @success="onSuccess" @expired="onExpired" />
       <div class="md:flex md:items-center mb-6">
         <div class="md:w-1/3"></div>
         <div class="md:w-2/3">

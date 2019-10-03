@@ -86,6 +86,7 @@
 
         <button
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          v-scroll-to="'#requestrial'"
         >Sign up for a free pilot!</button>
       </div>
       <!--Right Col-->
@@ -362,16 +363,20 @@
 
       <button
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        v-scroll-to="'#requestrial'"
       >Sign up for a free pilot!</button>
     </section>
+    <requestrial />
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
+import requestrial from "~/components/requesttrial.vue";
 export default {
   components: {
-    Navbar
+    Navbar,
+    requestrial
   },
   data() {
     return {
