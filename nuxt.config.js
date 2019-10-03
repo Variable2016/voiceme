@@ -43,8 +43,12 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [{
-    src: "~/plugins/vue-youtube"
-  }],
+      src: "~/plugins/vue-youtube"
+    },
+    {
+      src: "~plugins/vue-scrollto.js"
+    }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
