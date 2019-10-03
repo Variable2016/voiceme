@@ -136,20 +136,48 @@ export default {
       company: "",
       role: "",
       selected: "",
-      help: ""
+      help: "",
+      retoken: this.token
     };
   },
   methods: {
+    onError(error) {
+      console.log("Error happened:", error);
+    },
+    async requesttrial() {
+      try {
+        const token = await this.$recaptcha.getResponse();
+        console.log("ReCaptcha token:", token);
+      } catch (error) {
+        console.log("Login error:", error);
+      }
+    },
+    onSuccess(token) {
+      console.log("Succeeded:", token);
+    },
+    onExpired() {
+      console.log("Expired");
+    },
     requesttrial() {
+      const body = {
+        fullname: this.fullname,
+        email: this.email,
+        company: this.company,
+        role: this.role,
+        selected: this.selected,
+        help: this.help,
+        retoken: this.retoken
+      };
       this.$axios
-        .$post("https://api.smartear.ai/v1/contact_form", {
-          fullname: this.fullname,
-          email: this.email,
-          company: this.company,
-          role: this.role,
-          selected: this.selected,
-          help: this.help
-        })
+        .$post(
+          "https://api.smartear.ai/v1/contact_form",
+          JSON.stringify(body),
+          {
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded"
+            }
+          }
+        )
         .then(function(response) {
           console.log(response);
         })

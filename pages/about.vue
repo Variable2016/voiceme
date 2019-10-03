@@ -52,19 +52,19 @@
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
               <nuxt-link
-                class="inline-block py-2 px-4 text-black font-bold no-underline hide-me"
+                class="inline-block py-2 px-4 text-white font-bold no-underline hide-me"
                 to="/"
               >Home</nuxt-link>
             </li>
             <li class="mr-3">
               <nuxt-link
-                class="inline-block py-2 px-4 text-black font-bold no-underline"
+                class="inline-block py-2 px-4 text-white font-bold no-underline"
                 to="/dashboard"
               >Dashboard</nuxt-link>
             </li>
             <li class="mr-3">
               <nuxt-link
-                class="inline-block text-black no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
+                class="inline-block text-white no-underline font-bold hover:text-gray-800 hover:text-underline py-2 px-4"
                 to="about"
               >About Us</nuxt-link>
             </li>

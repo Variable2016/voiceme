@@ -43,7 +43,7 @@
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
 
-      <p class="my-4 text-1xl leading-tight px-10">
+      <p class="my-4 text-1xl leading-tight px-10 text-white">
         VoiceMe.AI is currently accepting a limited number of companies to join their pilot group.
         This is your opportunity to help tailor the platform to your companies needs.
         Lock in early adopter pricing as an added benefit. There are only four accounts left!
