@@ -17,7 +17,7 @@
           v-scroll-to="'#requestrial'"
         >Sign up for a free pilot!</a>
         <a
-          class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold my-6 py-4 px-8"
           v-scroll-to="'#requestrial'"
         ></a>
       </div>
