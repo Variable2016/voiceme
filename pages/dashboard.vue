@@ -81,9 +81,7 @@
       <div
         class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-center sm:text-center"
       >
-        <h1
-          class="my-4 text-4xl font-bold text-white sm:text-center md:text-center lg:text-justify xl:text-center"
-        >Dashboard</h1>
+        <h1 class="my-4 text-4xl font-bold text-white">Dashboard</h1>
         <p
           class="leading-normal text-2xl mb-8 text-white"
         >Strengthen team by improving communication</p>

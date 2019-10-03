@@ -99,8 +99,8 @@
         <div class="md:w-1/3">
           <label
             class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="inline-username"
-          ></label>
+            for="how we can help"
+          >How we can help?</label>
         </div>
         <div class="md:w-2/3">
           <textarea
@@ -139,7 +139,25 @@ export default {
       help: ""
     };
   },
-  methods: {}
+  methods: {
+    requesttrial() {
+      this.$axios
+        .$post("https://api.smartear.ai/v1/contact_form", {
+          fullname: this.fullname,
+          email: this.email,
+          company: this.company,
+          role: this.role,
+          selected: this.selected,
+          help: this.help
+        })
+        .then(function(response) {
+          console.log(response);
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
+    }
+  }
 };
 </script>
 
