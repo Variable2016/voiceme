@@ -1,18 +1,14 @@
 <template>
   <div class="-mx-4 flex justify-center" id="requestrial">
     <div class="px-4 w-full md:w-8/12 xl:w-6/12">
-      <div class="bg-white -mt-12 rounded shadow">
+      <div class="-mt-12 rounded">
         <div class="py-16 px-12">
           <div class="text-center">
-            <h1
-              class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 my-10"
-            >Request Free Trial</h1>
-
             <form class="simple_form new_user">
               <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                   <label
-                    class="text-black-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
+                    class="text-gray-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
                     for="inline-full-name"
                   >Full name</label>
                 </div>
@@ -63,7 +59,7 @@
               <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                   <label
-                    class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                    class="block text-gray-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
                     for="inline-username"
                   >Your role</label>
                 </div>
@@ -81,13 +77,13 @@
               <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                   <label
-                    class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                    class="block text-gray-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
                     for="inline-username"
                   >Device used</label>
                 </div>
                 <div class="md:w-2/3">
                   <select
-                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
                     v-model="selected"
                   >
                     <option>Walkie-Takie</option>
@@ -100,7 +96,7 @@
               <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                   <label
-                    class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                    class="block text-gray-500 font-bold md:text-center mb-1 md:mb-0 pr-4"
                     for="how we can help"
                   >How we can help?</label>
                 </div>
@@ -109,7 +105,7 @@
                     class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                     id="inline-username"
                     type="text"
-                    placeholder="How can voiceme.AI help you?"
+                    placeholder="How can voiceMe.AI help you?"
                     v-model="help"
                   />
                 </div>
@@ -122,7 +118,7 @@
                     class="shadow bg-blue-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                     type="button"
                     @click="requesttrial"
-                  >Request Free Trial</button>
+                  >Signup for a free pilot!</button>
                 </div>
               </div>
             </form>

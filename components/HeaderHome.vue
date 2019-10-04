@@ -1,35 +1,34 @@
 <template>
-  <div>
-    <div class="container mx-auto px-4 font-body">
-      <div class="flex flex-wrap -mx-4 my-5">
-        <!--Left Col-->
-        <div class="w-full lg:w-2/5 px-4 text-center lg:text-left self-center">
-          <h1
-            class="mb-4 text-5xl font-extrabold leading-none text-white"
-          >Better Communication Means Better Service</h1>
-
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap -mx-4 my-5">
+      <!--Left Col-->
+      <div class="w-full lg:w-2/5 px-4 text-center lg:text-left self-center">
+        <h1
+          class="mb-12 text-5xl font-bold leading-none text-white"
+        >Better Communication Means Better Service</h1>
+        <p class="mb-12">
           <a
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
             href="#"
             v-scroll-to="'#requestrial'"
           >Sign up for a free pilot!</a>
-          <a
-            class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold my-6 py-4 px-8"
-            v-scroll-to="'#requestrial'"
-          ></a>
-        </div>
+        </p>
+        <a
+          class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold my-6 py-4 px-8"
+          v-scroll-to="'#requestrial'"
+        ></a>
+      </div>
 
-        <!--Right Col-->
-        <div class="w-full lg:w-3/5 px-4 text-center lg:text-right lg:text-left self-end px-4">
-          <!---------<iframe
+      <!--Right Col-->
+      <div class="w-full lg:w-3/5 px-4 text-center lg:text-right lg:text-left self-end px-4">
+        <!---------<iframe
           class="w-full md:w-4/5 z-50"
           src="https://www.youtube.com/embed/QCHReK--iNo"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          ></iframe>--->
-          <youtube class="w-full xl:w-4/5 z-50 inline-block" video-id="QCHReK--iNo"></youtube>
-        </div>
+        ></iframe>--->
+        <youtube class="w-full xl:w-4/5 z-50 inline-block" video-id="QCHReK--iNo"></youtube>
       </div>
     </div>
     <div class="relative -mt-12 lg:-mt-24">
