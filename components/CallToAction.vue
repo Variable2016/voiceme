@@ -48,11 +48,126 @@
         This is your opportunity to help tailor the platform to your companies needs.
         Lock in early adopter pricing as an added benefit. There are only four accounts left!
       </p>
+      <form class="w-full lg:w-3/5 px-4 text-center lg:text-left self-center">
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-full-name"
+            >Full Name</label>
+          </div>
+          <div class="md:w-2/3">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-full-name"
+              type="text"
+              placeholder="John Smith"
+              v-model="fullname"
+            />
+          </div>
+        </div>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-username"
+            >Email</label>
+          </div>
+          <div class="md:w-2/3">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-username"
+              type="email"
+              placeholder="name@example.com"
+              v-model="email"
+            />
+          </div>
+        </div>
 
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        v-scroll-to="'#requestrial'"
-      >Sign up for a free pilot!</button>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-username"
+            >Company</label>
+          </div>
+          <div class="md:w-2/3">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-username"
+              type="text"
+              placeholder="Company name"
+              v-model="company"
+            />
+          </div>
+        </div>
+
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-username"
+            >Your role</label>
+          </div>
+          <div class="md:w-2/3">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-username"
+              type="text"
+              placeholder="What's your role in your company?"
+              v-model="role"
+            />
+          </div>
+        </div>
+
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="inline-username"
+            >Device used</label>
+          </div>
+          <div class="md:w-2/3">
+            <select
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+              v-model="selected"
+            >
+              <option>Walkie-Takie</option>
+              <option>Smartphones</option>
+              <option>Both</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label
+              class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              for="how we can help"
+            >How we can help?</label>
+          </div>
+          <div class="md:w-2/3">
+            <textarea
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-username"
+              type="text"
+              placeholder="How can voiceme.AI help you?"
+              v-model="help"
+            />
+          </div>
+        </div>
+        <recaptcha @error="onError" @success="onSuccess" @expired="onExpired" />
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3"></div>
+          <div class="md:w-2/3">
+            <button
+              class="shadow bg-blue-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              type="button"
+              @click="requesttrial"
+            >Request Free Trial</button>
+          </div>
+        </div>
+      </form>
     </section>
   </div>
 </template>

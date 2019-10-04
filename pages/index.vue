@@ -2,8 +2,8 @@
   <div class="gradient">
     <Navbar />
     <HeaderHome />
-    <HowItWorks />
     <OurSolution />
+    <HowItWorks />
     <CallToAction />
     <requesttrial />
     <Footer />
@@ -43,6 +43,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+* {
+  font-family: "Rubik", sans-serif;
+}
 .gradient {
   background: linear-gradient(90deg, #134abf 0%, #cecece 100%);
   font-family: "Manjari", sans-serif;

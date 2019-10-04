@@ -12,5 +12,8 @@ export default {};
 
 
 <style>
+* {
+  font-family: "Rubik", sans-serif;
+}
 </style>
 

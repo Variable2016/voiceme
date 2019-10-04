@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto"
+        href: "https://fonts.googleapis.com/css?family=Rubik&display=swap"
       }
     ]
   },
