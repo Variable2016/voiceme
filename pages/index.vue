@@ -2,6 +2,7 @@
   <div class="gradient">
     <Navbar />
     <HeaderHome />
+    <YourTeam />
     <OurSolution />
     <HowItWorks />
     <CallToAction />
@@ -13,6 +14,7 @@
 <script>
 import Navbar from "~/components/Navbar.vue";
 import HeaderHome from "~/components/HeaderHome.vue";
+import YourTeam from "~/components/YourTeam.vue";
 import OurSolution from "~/components/OurSolution.vue";
 import HowItWorks from "~/components/HowItWorks.vue";
 import CallToAction from "~/components/CallToAction.vue";
@@ -22,6 +24,7 @@ export default {
   components: {
     Navbar,
     HeaderHome,
+    YourTeam,
     OurSolution,
     HowItWorks,
     CallToAction,

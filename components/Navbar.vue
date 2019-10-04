@@ -1,5 +1,5 @@
 <template>
-  <nav id="header" class="w-full z-30 text-white">
+  <nav id="header" class="w-full z-30 text-white gradient">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex items-center">
         <img class="h-10 fill-current inline px-2" src="~/assets/icon.png" alt="number-one" />
