@@ -81,7 +81,7 @@
           <h1 class="mb-8 text-5xl font-bold leading-none text-white">About Us</h1>
           <p
             class="mb-6 text-white text-xl"
-          >When teams communicate well, they work efficiently because they are better informed and more confident in their actions. This not only improves customer service, but it also improves their working conditions and potentially their lives.</p>
+          >Our solution is a simple way to bridge the gap between analog and digital technology. People who are familiar with walkie-talkies and CB radios don't have to change their behavior, and managers get the added benefit of using a visual dashboard to help them stay connected to their team's communication.</p>
 
           <button
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
