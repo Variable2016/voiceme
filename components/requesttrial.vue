@@ -1,129 +1,135 @@
 <template>
-  <div class="mx-auto px-8 lg:px-48 bg-white py-8" id="requestrial">
-    <h1
-      class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 my-10"
-    >Request Free Trial</h1>
+  <div class="-mx-4 flex justify-center" id="requestrial">
+    <div class="px-4 w-full md:w-8/12 xl:w-6/12">
+      <div class="bg-white -mt-12 rounded shadow">
+        <div class="py-16 px-12">
+          <div class="text-center">
+            <h1
+              class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 my-10"
+            >Request Free Trial</h1>
 
-    <form class="w-full max-w-6xl">
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3">
-          <label
-            class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="inline-full-name"
-          >Full Name</label>
-        </div>
-        <div class="md:w-2/3">
-          <input
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-            id="inline-full-name"
-            type="text"
-            placeholder="John Smith"
-            v-model="fullname"
-          />
-        </div>
-      </div>
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3">
-          <label
-            class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="inline-username"
-          >Email</label>
-        </div>
-        <div class="md:w-2/3">
-          <input
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-            id="inline-username"
-            type="email"
-            placeholder="name@example.com"
-            v-model="email"
-          />
-        </div>
-      </div>
+            <form class="simple_form new_user">
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                  <label
+                    class="text-black-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
+                    for="inline-full-name"
+                  >Full name</label>
+                </div>
+                <div class="md:w-2/3">
+                  <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-black-700 leading-tight focus:outline-none focus:bg-white focus:border-black-500"
+                    type="text"
+                    placeholder="John Smith"
+                    v-model="fullname"
+                  />
+                </div>
+              </div>
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                  <label
+                    class="block text-gray-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
+                    for="inline-username"
+                  >Email</label>
+                </div>
+                <div class="md:w-2/3">
+                  <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                    type="email"
+                    placeholder="name@example.com"
+                    v-model="email"
+                  />
+                </div>
+              </div>
 
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3">
-          <label
-            class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="inline-username"
-          >Company</label>
-        </div>
-        <div class="md:w-2/3">
-          <input
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-            id="inline-username"
-            type="text"
-            placeholder="Company name"
-            v-model="company"
-          />
-        </div>
-      </div>
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                  <label
+                    class="block text-gray-500 font-bold md:text-center mb-1 md:mb-0 pr-2"
+                    for="inline-username"
+                  >Company</label>
+                </div>
+                <div class="md:w-2/3">
+                  <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                    id="inline-username"
+                    type="text"
+                    placeholder="Company name"
+                    v-model="company"
+                  />
+                </div>
+              </div>
 
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3">
-          <label
-            class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="inline-username"
-          >Your role</label>
-        </div>
-        <div class="md:w-2/3">
-          <input
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-            id="inline-username"
-            type="text"
-            placeholder="What's your role in your company?"
-            v-model="role"
-          />
-        </div>
-      </div>
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                  <label
+                    class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                    for="inline-username"
+                  >Your role</label>
+                </div>
+                <div class="md:w-2/3">
+                  <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                    id="inline-username"
+                    type="text"
+                    placeholder="What's your role in your company?"
+                    v-model="role"
+                  />
+                </div>
+              </div>
 
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3">
-          <label
-            class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="inline-username"
-          >Device used</label>
-        </div>
-        <div class="md:w-2/3">
-          <select
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
-            v-model="selected"
-          >
-            <option>Walkie-Takie</option>
-            <option>Smartphones</option>
-            <option>Both</option>
-          </select>
-        </div>
-      </div>
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                  <label
+                    class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                    for="inline-username"
+                  >Device used</label>
+                </div>
+                <div class="md:w-2/3">
+                  <select
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+                    v-model="selected"
+                  >
+                    <option>Walkie-Takie</option>
+                    <option>Smartphones</option>
+                    <option>Both</option>
+                  </select>
+                </div>
+              </div>
 
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3">
-          <label
-            class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-            for="how we can help"
-          >How we can help?</label>
-        </div>
-        <div class="md:w-2/3">
-          <textarea
-            class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-            id="inline-username"
-            type="text"
-            placeholder="How can voiceme.AI help you?"
-            v-model="help"
-          />
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                  <label
+                    class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                    for="how we can help"
+                  >How we can help?</label>
+                </div>
+                <div class="md:w-2/3">
+                  <textarea
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                    id="inline-username"
+                    type="text"
+                    placeholder="How can voiceme.AI help you?"
+                    v-model="help"
+                  />
+                </div>
+              </div>
+              <recaptcha @error="onError" @success="onSuccess" @expired="onExpired" />
+              <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3"></div>
+                <div class="md:w-2/3">
+                  <button
+                    class="shadow bg-blue-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                    type="button"
+                    @click="requesttrial"
+                  >Request Free Trial</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-      <recaptcha @error="onError" @success="onSuccess" @expired="onExpired" />
-      <div class="md:flex md:items-center mb-6">
-        <div class="md:w-1/3"></div>
-        <div class="md:w-2/3">
-          <button
-            class="shadow bg-blue-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-            type="button"
-            @click="requesttrial"
-          >Request Free Trial</button>
-        </div>
-      </div>
-    </form>
+    </div>
   </div>
 </template>
 
