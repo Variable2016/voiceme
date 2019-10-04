@@ -74,24 +74,24 @@
 
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
-    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <!--Left Col-->
-      <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
-      >
-        <h1 class="my-4 text-4xl font-bold leading-tight text-white">About Us</h1>
-        <p
-          class="leading-normal text-2xl mb-8 text-white"
-        >Strengthen team by improving communication</p>
+    <div class="container mx-auto px-4 gradient">
+      <div class="flex flex-wrap -mx-4 my-5">
+        <!--Left Col-->
+        <div class="w-full lg:w-2/5 px-4 text-center lg:text-left self-center">
+          <h1 class="mb-8 text-5xl font-bold leading-none text-white">About Us</h1>
+          <p
+            class="mb-6 text-white text-xl"
+          >When teams communicate well, they work efficiently because they are better informed and more confident in their actions. This not only improves customer service, but it also improves their working conditions and potentially their lives.</p>
 
-        <button
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          v-scroll-to="'#requestrial'"
-        >Sign up for a free pilot!</button>
-      </div>
-      <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center">
-        <img class="w-full md:w-4/5 z-50" src="~/assets/team.svg" />
+          <button
+            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+            v-scroll-to="'#requestrial'"
+          >Sign up for a free pilot!</button>
+        </div>
+        <!--Right Col-->
+        <div class="w-full lg:w-3/5 px-4 text-center lg:text-right lg:text-left self-end px-4">
+          <img class="w-full xl:w-4/5 z-50 inline-block" src="~/assets/team.svg" />
+        </div>
       </div>
     </div>
     <div class="relative -mt-12 lg:-mt-24">
@@ -130,12 +130,9 @@
         <p class="w-full my-2 text-2xl font-bold text-center text-gray-800">Our Story</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
-          <p class="w-full my-2 text-1xl text-center text-gray-800 border px-8">
-            We started Voiceme.AI to help those people who are techno-phobic make the leap into a digital world.
-            Most things in life boils down to communication. Almost all communication today is digital, and for millions of workers across the country this is real concern.
-            Our solution is a simple way to connect analogue tech to digital dashboard. People are familiar with Walkie-talkie and CB radio don't have to change what they do
-            and managers get benefit of a visual dashboard that helps them run their team.
-          </p>
+          <p
+            class="w-full my-2 text-1xl text-center text-gray-800 border px-8"
+          >We started VoiceMe.AI to help people who are techno-phobic make the leap into a digital world. Almost all communication today is digital, and for millions of workers across the country, utilizing advanced technology can be challenging.</p>
         </div>
       </a>
     </section>
@@ -147,7 +144,7 @@
         </div>
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">We Believe</h3>
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Our Mission</h3>
             <p class="text-gray-600 mb-8">
               When teams communicate well, they work efficiently because they are better imformed and more confident in their actions.
               This not only improve customer service, it improves their working conditions and potentially their lives.
