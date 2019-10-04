@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 gradient z-50">
+  <div class="container mx-auto px-4 gradient">
     <div class="flex flex-wrap -mx-4 my-5">
       <!--Left Col-->
       <div class="w-full lg:w-2/5 px-4 text-center lg:text-left self-center">
