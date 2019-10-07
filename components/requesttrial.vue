@@ -86,6 +86,7 @@
                     class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
                     v-model="selected"
                   >
+                    <option disabled value class="text-gray-500">Choose your device</option>
                     <option>Walkie-Takie</option>
                     <option>Smartphones</option>
                     <option>Both</option>
