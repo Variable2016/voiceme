@@ -131,7 +131,7 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p
-            class="w-full my-2 text-1xl text-center text-gray-800 border px-8"
+            class="w-full my-2 text-1xl text-center text-gray-800 px-8"
           >We started VoiceMe.AI to help people who are techno-phobic make the leap into a digital world. Almost all communication today is digital, and for millions of workers across the country, utilizing advanced technology can be challenging.</p>
         </div>
       </a>
