@@ -134,7 +134,7 @@
             class="w-full my-2 text-1xl text-center text-gray-600 px-8"
           >We started VoiceMe.AI to help people who are techno-phobic make the leap into a digital world.</p>
           <p
-            class="w-full my-2 text-1xl text-center text-gray-800 px-8"
+            class="w-full my-2 text-1xl text-center text-gray-600 px-8"
           >Almost all communication today is digital, and for millions of workers across the country, utilizing advanced technology can be challenging. Our solution is a simple way to connect analog tech to a digital dashboard. People who are familiar with walkie-talkies or CB radios don't have to change what they do and managers get the benefit of a visual dashboard that helps them run their teams.</p>
         </div>
       </a>
@@ -149,12 +149,7 @@
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Our Mission</h3>
             <p class="text-black-600 mb-8">
-              Our mission is to strengthen teams in Service Industries like hospitality, security,
-              construction, healthcare, and transportation by improving the way people
-              communicate on a daily basis. When teams communicate well,
-              they work efficiently because they are better informed
-              and more confident in their actions. This not only improves customer service,
-              it improves their working condition and potentially their lives.
+              VoiceMe.AI's mission is to strengthen teams in Service Industries like hospitality, security, construction, healthcare, and transportation by improving the way people communicate on a daily basis. When teams communicate well, they work efficiently because they are better informed and more confident in their actions. This not only improves customer service, it improves their working conditions and potentially their lives.
               <br />
             </p>
           </div>
