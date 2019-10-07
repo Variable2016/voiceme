@@ -7,7 +7,6 @@
     <HowItWorks />
     <CallToAction />
     <requesttrial />
-    <Footer />
   </div>
 </template>
 
