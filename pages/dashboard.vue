@@ -290,11 +290,6 @@
         This is your opportunity to help tailor the platform to your companies needs.
         Lock in early adopter pricing as an added benefit. There are only four accounts left!
       </p>
-
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-        v-scroll-to="'#requestrial'"
-      >Sign up for a free pilot!</button>
     </section>
     <requestrial />
   </div>
