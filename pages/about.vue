@@ -145,7 +145,7 @@
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Our Mission</h3>
-            <p class="text-gray-600 mb-8">
+            <p class="text-black-600 mb-8">
               Our mission is to strengthen teams in Service Industries like hospitality, security,
               construction, healthcare, and transportation by improving the way people
               communicate on a daily basis. When teams communicate well,
