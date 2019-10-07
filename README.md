@@ -1,6 +1,7 @@
 # voiceme
 
-> VoiceMe AI Website Redesign 
+
+> VoiceMe AI Website Redesign. Live Website here [VoiceMe.AI](https://voiceme.netlify.com)
 
 ## Build Setup
 
