@@ -17,7 +17,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Create an account</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-gray-600 text-base px-6 mb-5"
             >Click here to become a pilot user and lock in early adopter pricing (for life).</p>
           </a>
         </div>
@@ -33,7 +33,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Connect a device</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-gray-600 text-base px-6 mb-5"
             >Connect a single member of your team to VoiceMe.AI.</p>
           </a>
         </div>
@@ -49,7 +49,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Happier teams</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-gray-600 text-base px-6 mb-5"
             >Eliminate miscommunication and improve team morale.</p>
           </a>
         </div>
@@ -64,7 +64,7 @@
           <a href="#" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl text-gray-800 px-6">Happier customers</div>
             <p
-              class="text-gray-800 text-base px-6 mb-5"
+              class="text-gray-600 text-base px-6 mb-5"
             >Build trust and meaningful relationships with customers.</p>
           </a>
         </a>
