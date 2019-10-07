@@ -135,7 +135,7 @@
         >Clear Communication. Stronger Teams. Better Customer Service</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
-          <p class="w-full my-2 text-1xl text-center text-gray-800 border px-8">
+          <p class="w-full my-2 text-1xl text-center text-gray-800 px-8">
             The VoiceMe.AI Management Dashboard visually displays how teams communicate. No more playing catch-up, no more informational black holes. VoiceMe.AI can shine a light on communication breakdowns, trouble spots, and employee accountability,
             enabling you to easily resolve conflicts and restore confidence in your team.
           </p>
