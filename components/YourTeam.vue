@@ -12,19 +12,15 @@
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
             <p class="text-gray-600 mb-8">
-              If you're in a Service Industry and your team uses Walkie-talkies, radio or even smartphones to communicate internally,
-              you will know how easy it is to miss a message, misunderstand a request, or simply drop out of range.
+              If you're in the service industry and your team uses walkie-talkies, radio or even smartphones to communicate internally, you will know how easy it is to miss a message, misunderstand a request, or simply drop out of range.
               <br />
             </p>
             <p class="text-gray-600 mb-8">
-              Whether you're looking for a way to improve your current comm systems, or an efficient way to pinpoint comm breakdown,
-              we understand that litte mistakes can have big effects on your team's perfomance and customer satisfaction.
+              Whether you're looking for a way to improve your current comm systems or an efficient way to pinpoint comm breakdowns, we understand that little mistakes can have big effects on your team's performance and customer satisfaction.
               <br />
             </p>
             <p class="text-gray-600 mb-8">
-              VoiceMe.AI system enables managers to track their team's communication in real-time. allowing them to easily
-              resolves misunderstandings by immediately pinpointing the origin of a breakdown. Solves issues before the becomes problems, and fix
-              mistakes before they become bad reviews.
+              VoiceMe.AI system enables managers to track their team's communication in real-time, allowing them to easily resolves misunderstandings by immediately pinpointing the origin of a breakdown. Solve issues before the becomes problems, and fix mistakes before they become bad reviews!
               <br />
             </p>
           </div>
