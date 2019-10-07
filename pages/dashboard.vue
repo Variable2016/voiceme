@@ -136,7 +136,7 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
           <p
-            class="w-full my-2 text-1xl text-center text-gray-800 px-8"
+            class="w-full my-2 text-1xl text-center text-gray-600 px-8"
           >The VoiceMe.AI Management Dashboard visually displays how teams communicate. No more playing catch-up, no more informational black holes. VoiceMe.AI can shine a light on communication breakdowns, trouble spots, and employee accountability, enabling you to easily resolve conflicts and restore confidence in your team.</p>
         </div>
       </a>
@@ -162,7 +162,7 @@
         <div class="w-full md:w-3/5 p-4 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <div class="w-full my-2 text-1xl text-center text-gray-800 px-8">
+              <div class="w-full my-2 text-1xl text-center text-gray-600 px-8">
                 Maintain consistent record of all communication between teams and individuals.
                 Finally shine a light on informational blind spots.
               </div>
@@ -196,7 +196,7 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div
-                class="w-full my-2 text-1xl text-center text-gray-800 px-8"
+                class="w-full my-2 text-1xl text-center text-gray-600 px-8"
               >Immediate access to all voice recordings, messages, and data. Pinpoint desired information effortlessly.</div>
             </a>
           </div>
@@ -228,7 +228,7 @@
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <div
-                class="w-full my-2 text-1xl text-center text-gray-800 px-8"
+                class="w-full my-2 text-1xl text-center text-gray-600 px-8"
               >Receive communication breakdowns. Get ahead of the issues before they become bigger problems.</div>
             </a>
           </div>
