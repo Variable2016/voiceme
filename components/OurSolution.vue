@@ -13,9 +13,6 @@
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Walkie-Talkie Integration</h3>
           <p class="text-gray-600 mb-8">
             Captures all walkie-talkie communications instantly on VoiceMe.AI’s Management Dashboard.
-            <a>
-              <nuxt-link to="/dashboard" class="underline font-bold text-blue-500">Learn more</nuxt-link>
-            </a>
             <br />
           </p>
         </div>
@@ -652,9 +649,6 @@
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Management Dashboard</h3>
             <p class="text-gray-600 mb-8">
               The Management Dashboard allows managers to gain actionable insights into their mobile, deskless workforce.
-              <a>
-                <nuxt-link to="/dashboard" class="underline font-bold text-blue-500">Learn more</nuxt-link>
-              </a>
               <br />
             </p>
           </div>

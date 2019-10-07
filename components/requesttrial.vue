@@ -161,7 +161,21 @@ export default {
     onExpired() {
       console.log("Expired");
     },
+
     requesttrial() {
+      function encodeObject(obj) {
+        var encoded = "";
+        if (obj) {
+          for (var key in obj) {
+            if (encoded != "") {
+              encoded += "&";
+            }
+            encoded += key + "=" + encodeURIComponent(obj[key]);
+          }
+        }
+        return encoded;
+      }
+
       const body = {
         fullname: this.fullname,
         email: this.email,
@@ -172,15 +186,11 @@ export default {
         retoken: this.retoken
       };
       this.$axios
-        .$post(
-          "https://api.smartear.ai/v1/contact_form",
-          JSON.stringify(body),
-          {
-            headers: {
-              "Content-Type": "application/x-www-form-urlencoded"
-            }
+        .$post("https://api.smartear.ai/v1/contact_form", encodeObject(body), {
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
           }
-        )
+        })
         .then(function(response) {
           console.log(response);
         })
