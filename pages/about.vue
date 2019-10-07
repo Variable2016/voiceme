@@ -130,10 +130,12 @@
         <p class="w-full my-2 text-2xl font-bold text-center text-gray-800">Our Story</p>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-20 my-0 py-0 rounded-t"></div>
-          <p class="w-full my-2 text-1xl text-center text-gray-800 px-8">
-            We started VoiceMe.AI to help people who are techno-phobic make the leap into a digital world.
-            Almost all communication today is digital, and for millions of workers across the country, utilizing advanced technology can be challenging. Our solution is a simple way to connect analog tech to a digital dashboard. People who are familiar with walkie-talkies or CB radios don't have to change what they do and managers get the benefit of a visual dashboard that helps them run their teams.
-          </p>
+          <p
+            class="w-full my-2 text-1xl text-center text-gray-600 px-8"
+          >We started VoiceMe.AI to help people who are techno-phobic make the leap into a digital world.</p>
+          <p
+            class="w-full my-2 text-1xl text-center text-gray-800 px-8"
+          >Almost all communication today is digital, and for millions of workers across the country, utilizing advanced technology can be challenging. Our solution is a simple way to connect analog tech to a digital dashboard. People who are familiar with walkie-talkies or CB radios don't have to change what they do and managers get the benefit of a visual dashboard that helps them run their teams.</p>
         </div>
       </a>
     </section>
